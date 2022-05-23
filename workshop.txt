@@ -1,0 +1,8 @@
+version=1
+id=2811718710
+title=Smores
+description=Pretty straight forward here. You have Graham crackers, chocolate and a marshmallow why can't you have a Smore?
+description=
+description=The devs have already added Smores to the game but neglected to give us a recipe to craft it.  This mod resolves that and simply gives you a basic recipe to craft and cook Smores. YUM!
+tags=Build 41;Food;Silly/Fun
+visibility=unlisted

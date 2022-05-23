@@ -1,0 +1,50 @@
+module Base {
+    /* Smore: Copy/Paste Vanilla but added UnHappyChange-5 */
+	item Smore {
+		DisplayName = Smore,
+		DisplayCategory = Food,
+		Type = Food,
+		Weight = 0.1,
+		Icon = Smore,
+		DaysFresh = 10,
+		DaysTotallyRotten = 15,
+		HungerChange = -10,
+		Calories = 200,
+		Carbohydrates = 33,
+		Lipids = 10,
+		Proteins = 3,
+		WorldStaticModel = Smore_Ground,
+        UnhappyChange = -5,
+	}
+
+    item SmoreUncooked {
+        Weight = 0.1,
+        Type = Food,
+        DisplayName = Smore,
+        DisplayCategory = Food,
+        WorldStaticModel = Smore_Ground,
+        Icon = Smore,
+        IsCookable = True,
+        ReplaceonCooked = Smore,
+        MinutesToCook = 2,
+        MinutesToBurn = 30,
+        DasyFresh = 10,
+        DaysTotallyRotten = 15,
+        HungerChange = -10,
+        Carbohydrates = 33,
+        Proteins = 3,
+        Lipids = 10,
+        Calories = 200,
+        UnhappyChange = 2,
+    }
+
+    recipe PrepareSmores {
+        Chocolate/ChocolateChips,
+        GrahamCrackers,
+        Marshmallows,
+        Result: SmoreUncooked,
+        Time: 15.0,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+        Category: Cooking,
+    }
+}    
