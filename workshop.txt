@@ -5,11 +5,13 @@ description=Pretty straight forward here. You have Graham crackers, chocolate an
 description=
 description=The devs have already added Smores to the game but neglected to give us a recipe to craft it.  This mod resolves that and simply gives you a basic recipe to craft and cook Smores. YUM!
 description=
+description=
+description=[i]Just a stupid little mod for my friend Woodstock so he'll stop complaining that the server doesn't have any smores. Are you happy now? We're all getting fat[/i]
+description=
 description=[h1]Source Code[/h1]
 description=Smores is Open-Source and published on [url=https://github.com/Orcicorn-ProjectZomboid/Smores]Github[/url]
 description=
 description=[h1]Like what I'm doing?[/h1]
 description=[img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/like_favorite.gif[/img] [url=https://ko-fi.com/orcicorn][img]https://raw.githubusercontent.com/Orcicorn-ProjectZomboid/.github/master/images/kofi.png[/img][/url]
-description=
 tags=Build 41;Food;Silly/Fun
 visibility=unlisted
