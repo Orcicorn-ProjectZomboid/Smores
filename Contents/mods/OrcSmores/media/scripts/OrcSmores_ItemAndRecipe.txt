@@ -15,7 +15,7 @@ module Base {
         Proteins = 3,
         WorldStaticModel = Smore_Ground,
         UnhappyChange = -10,
-	}
+    }
 
     /* Mod: Uncooked but Edible */
     item SmoreUncooked {
