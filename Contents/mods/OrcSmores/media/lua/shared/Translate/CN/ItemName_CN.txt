@@ -1,0 +1,3 @@
+ItemName_CN = {
+    ItemName_SmoreUncooked = "棉花糖夹心饼干",
+}
